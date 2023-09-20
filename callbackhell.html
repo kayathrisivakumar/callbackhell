@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callbackhell task</title>
+</head>
+<body>
+
+<div> 
+        Display countdown from 10 to 1 on the screen and then display Happy Independence Day on the screen.
+        <h3 class="hell">value</h3>
+</div>
+
+    <script>
+
+const hell = document.querySelector(".hell");
+
+
+setTimeout(function () {
+    hell.innerText = "10";
+    setTimeout(function () {
+        hell.innerText = "9";
+        setTimeout(function () {
+
+            hell.innerText = "8";
+            setTimeout(function () {
+
+                hell.innerText = "7";
+                setTimeout(function () {
+
+                    hell.innerText = "6";
+                    setTimeout(function () {
+
+                        hell.innerText = "5";
+                        setTimeout(function () {
+
+                            hell.innerText = "4";
+                            setTimeout(function () {
+
+                                hell.innerText = "3";
+                                setTimeout(function () {
+
+                                    hell.innerText = "2";
+                                    setTimeout(function () {
+
+                                        hell.innerText = "1";
+                                        setTimeout(function () {
+
+                                            hell.innerText = "Happy Independence Day!";
+
+                                        }, 1000);
+
+
+                                    }, 1000);
+
+
+                                }, 1000);
+
+
+                            }, 1000);
+
+                        }, 1000);
+
+                    }, 1000);
+
+                }, 1000);
+
+            }, 1000);
+
+        }, 1000);
+    }, 1000);
+}, 1000);
+        
+
+
+    </script>
+</body>
+</html>
